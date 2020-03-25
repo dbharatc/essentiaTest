@@ -1,0 +1,13 @@
+name: essentia-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - scikit-learn
+  - pip
+  - pip:
+    - essentia
+    - pandas
+    - matplotlib
